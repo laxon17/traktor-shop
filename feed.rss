@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Traktor Shop</title>
+        <link>https://laxon17.github.io/traktor-shop/index.html</link>
+        <description>News</description>
+            <item>
+                <title>Controller discount!</title>
+                <link>https://laxon17.github.io/traktor-shop/controllers.html</link>
+                <description>Hurry up! There's a discount on Traktor D2, check It out!</description>
+            </item>
+            <item>
+                <title>New cables in storage</title>
+                <link>https://laxon17.github.io/traktor-shop/equipment.html</link>
+                <description>We got new audio cables! Check it out!</description>
+            </item>
+            <item>
+                <title>Flight case discount!</title>
+                <link>https://laxon17.github.io/traktor-shop/cases.html</link>
+                <description>Pay one, get two flight cases for Traktor controlls.</description>
+            </item>
+    </channel>
+</rss>

@@ -2,10 +2,10 @@
     font-family: 'Poppins', sans-serif; 
 }
 
-@mixin backgroundProperty($location) {
+@mixin backgroundProperty($location,$position) {
     height: 600px;
     background-size: cover;
-    background-position: bottom;
+    background-position: $position;
     background-repeat: no-repeat;
     background-image: $location;
 }
@@ -84,17 +84,23 @@ html {
         }
         .row {
             &.bg{
-                @include backgroundProperty(url(../img/carl-cox2.jpg));
+                @include backgroundProperty(url(../img/carl-cox2.jpg),bottom);
                 .darker {
                     @include darkCover;
                 }
                 &.two {
-                    @include backgroundProperty(url(../img/carl-cox.jpg));
+                    @include backgroundProperty(url(../img/background.png),center);
+                }
+                &.three {
+                    @include backgroundProperty(url(../img/background2.jpg),center);
                 }
             }
         }
         .d2 {
             width: 66%;
+        }
+        .d3 {
+            width: 40%;
         }
     }
 }

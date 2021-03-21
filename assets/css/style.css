@@ -95,12 +95,24 @@ html body .row.bg .darker {
 html body .row.bg.two {
   height: 600px;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../img/carl-cox.jpg);
+  background-image: url(../img/background.png);
+}
+
+html body .row.bg.three {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/background2.jpg);
 }
 
 html body .d2 {
   width: 66%;
+}
+
+html body .d3 {
+  width: 40%;
 }
 /*# sourceMappingURL=style.css.map */

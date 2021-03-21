@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <urlset xmlns="http://wwww.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://laxon17.github.io/traktor-shop/index.html</loc>
+            <lastmod>2021-3-22</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>1</priority>
+        </url>
+        <url>
+            <loc>https://laxon17.github.io/traktor-shop/controllers.html</loc>
+            <lastmod>2021-3-22</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.95</priority>
+        </url>
+        <url>
+            <loc>https://laxon17.github.io/traktor-shop/cases.html</loc>
+            <lastmod>2021-3-15</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://laxon17.github.io/traktor-shop/equipment.html</loc>
+            <lastmod>2021-3-17</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://laxon17.github.io/traktor-shop/contact.html</loc>
+            <lastmod>2021-2-19</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.5</priority>
+        </url>
+    </urlset>

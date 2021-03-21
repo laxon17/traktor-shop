@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /payment.html
+Disallow: /admin/
+Disallow: /private/
+
+sitemap: https://laxon17.github.io/traktor-shop/sitemap.xml
