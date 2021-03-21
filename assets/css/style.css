@@ -2,6 +2,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
 html {
   overflow-x: hidden;
   width: 100%;
@@ -78,11 +86,25 @@ html body i.fas, html body i.fab {
 }
 
 html body .row.bg {
-  height: 600px;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   background-image: url(../img/carl-cox2.jpg);
+  height: 600px;
+}
+
+html body .row.bg.two {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/background.png);
+}
+
+html body .row.bg.three {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/background2.jpg);
 }
 
 html body .row.bg .darker {
@@ -92,27 +114,60 @@ html body .row.bg .darker {
   padding-top: 250px;
 }
 
-html body .row.bg.two {
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/background.png);
-}
-
-html body .row.bg.three {
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/background2.jpg);
-}
-
 html body .d2 {
   width: 66%;
 }
 
 html body .d3 {
   width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  html h1, html h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+  }
+  html p {
+    font-size: 1rem;
+  }
+  html body .carousel {
+    width: 100%;
+    height: 70vh;
+  }
+  html body .row.bg {
+    height: 400px;
+  }
+  html body .row.bg .darker {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html body h1, html body h2 {
+    font-size: 1.2rem;
+  }
+  html body p {
+    font-size: .8rem;
+  }
+  html body .carousel {
+    width: 100%;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html body h1, html body h2 {
+    font-size: 1rem;
+  }
+  html body p {
+    font-size: .6rem;
+  }
+  html body .carousel {
+    width: 100%;
+    height: 40vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
